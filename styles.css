@@ -1,9 +1,21 @@
 @font-face { 
  font-family: 'barlow';
  src: url('barlow/Barlow-Bold.otff') format('opentype');
+ font-weight: 700;
+    font-style: normal;
+}
+
+@font-face { 
+ font-family: 'barlow';
  src: url('barlow/Barlow-Medium.otff') format('opentype');
+ font-weight: 500;
+    font-style: normal;
+}
+
+@font-face { 
+ font-family: 'barlow';
  src: url('barlow/Barlow-Regular.otff') format('opentype');
- font-weight: normal;
+ font-weight: 400;
  font-style: normal;
 }
 
@@ -25,7 +37,7 @@ body {
 }
 
 .h1 {
-    font-weight: 'Bold';
+    font-weight: 700;
     font-size: 1.4em;
     color: var(#7B8A92);
     margin-top: 20px;
@@ -34,7 +46,7 @@ body {
 }
 
 .subtitle {
-    font-weight: 'medium';
+    font-weight: 500;
     font-size: 0.9em;
     color:#96A5B1;
     margin-top: 5px;
@@ -72,7 +84,7 @@ body {
 }
 
 .left-illustration .logo {
-    font-weight:bold;
+    font-weight:700;
     font-size: 2.5em;
     margin: 20px;
     position: absolute;
@@ -102,13 +114,13 @@ body {
 }
 
 .form-card h1 {
-    font-weight: 'Semibold';
+    font-weight: 700;
     margin-bottom: 10px;
     color: var(black);
 }
 
 .form-card .subtitle {
-    font-weight: 'medium';
+    font-weight: 500;
     font-size: 0.9em;
     color: #b7bbbe;
     margin-bottom: 30px;
@@ -122,7 +134,7 @@ body {
 }
 
 .social-login button {
-    font-weight: 'regular';
+    font-weight: 400;
     font-size: 0.8em;
     flex: 2;
     padding: 10px;
@@ -165,7 +177,7 @@ body {
 }
 
 .divider {
-    font-weight: 'regular';
+    font-weight: 400;
     font-size: 0.5em;
     display:flex;
     justify-content: center;
@@ -192,7 +204,7 @@ body {
 }
 
 .form-group {
-    font-weight: 'regular';
+    font-weight: 400;
     font-size: 0.7em;
     align-items: center;
     justify-content: center;
@@ -224,7 +236,7 @@ body {
 }
 
 h2 {
-    font-weight: 'bold';
+    font-weight: 700;
     font-size: 1.2em;
     margin-top: 40px;
     margin-bottom: 8px;
@@ -232,7 +244,7 @@ h2 {
 }
 
 .select-investor {
-    font-weight: 'medium';
+    font-weight: 500;
     font-size: 0.9em;
     color: #7f8182;
     margin-top: 0px;
@@ -240,7 +252,7 @@ h2 {
 }
 
 .investor-type-options {
-    font-weight: 'Bold';
+    font-weight: 500;
     font-size: 0.9em;
     display: inline-block;
     justify-content: left;
@@ -344,7 +356,7 @@ h2 {
 }
 
 .terms-checkbox {
-    font-weight: 'regular';
+    font-weight: 400;
     font-size: 0.6em;
     color: #6c757d;
     margin-top: 20px;
@@ -396,7 +408,7 @@ h2 {
     }
 
     .left-illustration {
-        display: none; /* Hide illustration on smaller screens or adjust size */
+        display: none; 
     }
 
     .right-form-section {
