@@ -1,9 +1,19 @@
 @font-face { 
  font-family: 'barlow';
  src: url('barlow/Barlow-Bold.otff') format('opentype');
+ font-weight: 700;
+}
+
+@font-face { 
+ font-family: 'barlow';
  src: url('barlow/Barlow-Medium.otff') format('opentype');
+ font-weight: 500;
+}
+
+@font-face { 
+ font-family: 'barlow';
  src: url('barlow/Barlow-Regular.otff') format('opentype');
- font-weight: normal;
+ font-weight: 400;
  font-style: normal;
 }
 
