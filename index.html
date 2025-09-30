@@ -36,41 +36,50 @@
                 <form>
                     <div class="form-group">
                           <input type= "email" id="email" placeholder="gus@gmail.com">
-                    </div>
-                    <div class="form-group">
-                        <input type="tel" id="phone" placeholder="Phone">
+                          <input type="tel" id="phone" placeholder="Phone">
                     </div>
                          </div>
                          <h2>What type of investor are you?</h2>
                     <p class="select-investor">Select the type of investor you are below.</p>
                     <div class="investor-type-options">
-                        <label class="radio-container">Individual
+                        <label class="radio-container">individual
+                            <span class="hover-info">
+                                <span class="info-circle">&#9432</span>
+                                <span class="tooltip">I am a natural person investing on my own <br>behalf or a sole owner,<br>joint tenant, or tenant in common. </span>
+                            </span>
                             <input type="radio" checked="checked" name="investorType" value="individual">
                             <span class="checkmark"></span>
                         </label>
                         <label class="radio-container">Business
-                            <input type="radio" name="investorType" value="business">
-                            <span class="checkmark"></span>
+                            <span class="hover-info">
+                                <span class="info-circle">&#9432</span>
+                                <span class="tooltip">a business entity.</span>
+                            </span>    
+                             <input type="radio" checked="checked" name="investorType" value="business">
+                              <span class="checkmark"></span>
                         </label>
-                        <label class="radio-container">IRA
-                            <input type="radio" name="investorType" value="ira">
+                        <label class="radio-container">IRA 
+                            <span class="hover-info">
+                                <span class="info-circle">&#9432</span>
+                                <span class="tooltip">an IRA.</span>
+                            </span>    
+                            <input type="radio" checked="checked" name="investorType" value="ira">
                             <span class="checkmark"></span>
                         </label>
                         <label class="radio-container">Trust
-                            <input type="radio" name="investorType" value="trust">
-                            <span class="checkmark"></span>
+                            <span class="hover-info">
+                             <span class="info-circle">&#9432</span>
+                             <span class="tooltip"> a trust.</span>
+                            </span>
+                            <input type="radio" checked="checked" name="investorType" value="trust">
+                            <span class="checkmark"></span>   
                         </label>
-                    </div>
-                    <div class="container-two">
-                    <p class="terms-description">
-                        I am a natural person investing on my own <br>behalf or a sole owner,<br>joint tenant, or tenant in common.
-                    </p>
                     </div>
                     <div class="terms-checkbox">
                         <input type="checkbox" id="terms" name="terms">
-                        <label for="terms">I agree to the terms and receiving notifications from iintoo <a href="#">View full terms</a></label>
+                        <label for="terms">I agree to the terms and recieving notification from iinto <a href="#">view full term</a>
+                        </label>
                     </div>
-
                     <button type="submit" class="create-account-btn">Create Account</button>
                 </form>
             </div>
