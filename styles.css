@@ -1,20 +1,23 @@
 @font-face { 
  font-family: 'barlow';
- src: url('barlow/Barlow-Bold.otff') format('opentype');
- font-weight: 700;
+ src: url('barlow/Barlow-SemiBold.otf') format('opentype'),
+      url('barlow/Barlow-SemiBold.ttf') format('truetype');
+ font-weight: 600;
     font-style: normal;
 }
 
 @font-face { 
  font-family: 'barlow';
- src: url('barlow/Barlow-Medium.otff') format('opentype');
+ src: url('barlow/Barlow-Medium.otf') format('opentype'),
+      url('barlow/Barlow-Medium.ttf') format('truetype');
  font-weight: 500;
     font-style: normal;
 }
 
 @font-face { 
  font-family: 'barlow';
- src: url('barlow/Barlow-Regular.otff') format('opentype');
+ src: url('barlow/Barlow-Regular.otf') format('opentype'),
+      url('barlow/Barlow-Regular.ttf') format('truetype');
  font-weight: 400;
  font-style: normal;
 }
@@ -37,9 +40,10 @@ body {
 }
 
 .h1 {
-    font-weight: 700;
+    font-family: bold, serif;
+    font-weight: 600;
     font-size: 1.4em;
-    color: var(#7B8A92);
+    color: #444748;
     margin-top: 20px;
     margin-bottom: 5px;
     margin-left: 10px;
@@ -217,12 +221,11 @@ body {
 .form-group input[type="email"],
 .form-group input[type="tel"] { 
     display: inline-block;
-    width:120px;
+    width:174px;
     padding: 10px;
     border: 1px solid #ced4da;
-    border-radius: 0px;
-    margin-left: 10px; 
-    margin-bottom: 20px 20px 0px 0px; 
+    border-radius: 0px; 
+    margin: 10px 10px 0px 0px; 
 }
 
 .form-group input[type="email"]:focus,
@@ -235,11 +238,12 @@ body {
     color: #6c757d;
 }
 
-h2 {
-    font-weight: 700;
-    font-size: 1.2em;
-    margin-top: 40px;
-    margin-bottom: 8px;
+.h2 {
+    font-family: 'semibold', serif;
+    font-weight: 600;
+    font-size: 1em;
+    margin-top: 35px;
+    margin-bottom: 0px;
     color: #7B8A92;
 }
 
