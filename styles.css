@@ -221,7 +221,7 @@ body {
 .form-group input[type="email"],
 .form-group input[type="tel"] { 
     display: inline-block;
-    width:174px;
+    width:170px;
     padding: 10px;
     border: 1px solid #ced4da;
     border-radius: 0px; 
@@ -243,7 +243,7 @@ body {
     font-weight: 600;
     font-size: 1em;
     margin-top: 35px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     color: #7B8A92;
 }
 
